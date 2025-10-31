@@ -13,7 +13,7 @@ export default defineConfig({
   lang: metaData.lang,
   title: metaData.title,
   description: metaData.description,
-  base: '/'
+  base: '/',
   // 最后更新时间
   lastUpdated: true,
 
