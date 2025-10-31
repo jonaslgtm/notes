@@ -16,10 +16,10 @@ on:
 permissions:
   contents: write
 
-env:
-  TZ: Asia/Shanghai
-  VITE_GISCUS_REPO_ID: ${{ secrets.VITE_GISCUS_REPO_ID }}
-  VITE_GISCUS_CATEGORY_ID: ${{ secrets.VITE_GISCUS_CATEGORY_ID }}
+# env:
+#   TZ: Asia/Shanghai
+#   VITE_GISCUS_REPO_ID: ${{ secrets.VITE_GISCUS_REPO_ID }}
+#   VITE_GISCUS_CATEGORY_ID: ${{ secrets.VITE_GISCUS_CATEGORY_ID }}
 
 jobs:
   deploy:
