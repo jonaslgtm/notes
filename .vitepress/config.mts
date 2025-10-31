@@ -14,6 +14,8 @@ export default defineConfig({
   title: metaData.title,
   description: metaData.description,
 
+  ignoreDeadLinks: true,
+
   // 最后更新时间
   lastUpdated: true,
 
