@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '5 0 * * *'
   push:
-    branches: 
+    branches:
       - main
     paths:
       - 'posts/**'
@@ -13,7 +13,7 @@ on:
       - 'package.json'
       - '.vitepress/**'
 
-permissions: 
+permissions:
   contents: write
 
 env:
@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with: 
+        with:
           fetch-depth: 0
           persist-credentials: false
 
@@ -49,6 +49,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: yqchilde/yqchilde.github.io
+          repository-name: jonaslgtm/notes
           branch: gh-pages
           folder: dist
