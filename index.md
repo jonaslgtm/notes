@@ -36,7 +36,7 @@ features:
     linkText: 提效工具
 ---
 
-<!-- <ClientOnly><Heatmap /></ClientOnly> -->
+<ClientOnly><Heatmap /></ClientOnly>
 
 <style>
 .m-home-layout .image-src:hover {
