@@ -90,7 +90,7 @@ export default defineConfig({
     './README.md',
   ],
 
-  // sitemap: {
-  //   hostname: 'https://yqqy.top',
-  // },
+  sitemap: {
+    hostname: 'https://notes.web025.cn',
+  },
 })
