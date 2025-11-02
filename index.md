@@ -8,7 +8,7 @@ hero:
   tagline: 好记性不如烂键盘 Notes to Self.
   image:
     src: /background.webp
-    alt: background
+    alt: backgroundwebp
   actions:
     - theme: brand
       text: 进入博客
