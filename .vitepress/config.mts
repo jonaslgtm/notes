@@ -37,7 +37,7 @@ export default defineConfig({
       level: 'deep'
     },
     editLink: {
-      pattern: 'https://github.com/yqchilde/MyNewBlog/edit/main/:path',
+      pattern: 'https://github.com/jonaslgtm/notes/edit/main/:path',
       text: '不妥之处，敬请雅正'
     },
     lastUpdated: {
@@ -57,7 +57,7 @@ export default defineConfig({
       options: algolia,
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yqchilde/yqchilde.github.io' }
+      { icon: 'github', link: 'https://github.com/jonaslgtm/notes' }
     ],
     footer: {
       copyright: 'Copyright © 2023-2025 Jonas\'s notes | CC BY-NC 4.0 | built with VitePress'
