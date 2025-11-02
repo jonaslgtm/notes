@@ -14,7 +14,7 @@ jobs:
         uses: algolia/algoliasearch-crawler-github-actions@v1.1.0
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
-          crawler-name: 'Jonas'
+          crawler-name: 'jonas-notes'
           crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
           crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
           algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
