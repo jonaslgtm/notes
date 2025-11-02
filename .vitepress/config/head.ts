@@ -4,7 +4,9 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 
 export const head: HeadConfig[] = [
   ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-  ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+  // ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+  // apple-mobile-web-app-capable已弃用，使用mobile-web-app-capable标签代替
+  ['meta', { name: 'mobile-web-app-capable', content: 'yes' }],
   ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ['meta', { name: 'msapplication-TileImage', content: '/favicon.ico' }],
