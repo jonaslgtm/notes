@@ -7,7 +7,7 @@ hero:
   name: "~/notes"
   tagline: 好记性不如烂键盘 Notes to Self.
   image:
-    src: /background.png
+    src: /background.webp
     alt: background
   actions:
     - theme: brand
