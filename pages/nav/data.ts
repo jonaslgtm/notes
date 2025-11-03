@@ -2,7 +2,7 @@ import type { NavData } from '../../.vitepress/theme/types'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '经常访问',
+    title: '🚀经常访问',
     items: [
       {
         icon: {
@@ -70,7 +70,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'AI 工具',
+    title: '🤖AI 工具',
     items: [
       {
         icon: './icons/chatgpt.svg',
@@ -112,7 +112,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'AI 代码编辑器',
+    title: '💻AI 代码编辑器',
     items: [
       {
         icon: '//cursor.com/marketing-static/favicon-light.ico',
@@ -148,7 +148,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '开发参考',
+    title: '📚开发参考',
     items: [
       {
         icon: {
@@ -176,7 +176,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '在线文档工具',
+    title: '📝在线文档工具',
     items: [
       {
         icon: 'https://shimo.im/favicon.ico',
@@ -211,7 +211,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '资源收藏',
+    title: '🗂️资源收藏',
     items: [
       {
         icon: {
@@ -230,7 +230,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'CPS 联盟',
+    title: '💰CPS 联盟',
     items: [
       {
         icon: "./icons/jd.svg",
