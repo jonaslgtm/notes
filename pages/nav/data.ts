@@ -70,6 +70,84 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: 'AI 工具',
+    items: [
+      {
+        icon: './icons/chatgpt.svg',
+        title: 'ChatGPT',
+        link: 'https://chat.openai.com/',
+        badge: '对话'
+      },
+      {
+        icon: '//www.deepseek.com/favicon.ico',
+        title: 'DeepSeek',
+        link: 'https://chat.deepseek.com/',
+        badge: '对话'
+      },
+      {
+        icon: '//lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/chat/favicon.png',
+        title: '豆包',
+        link: 'https://www.doubao.com/',
+        badge: '对话'
+      },
+      {
+        icon: '//yuanbao.tencent.com/favicon.ico',
+        title: '元宝',
+        link: 'https://yuanbao.tencent.com/',
+        badge: '对话'
+      },
+      {
+        icon: 'https://statics.moonshot.cn/kimi-web-seo/favicon.ico',
+        title: 'Kimi AI',
+        link: 'https://kimi.com/',
+        badge: '对话'
+      },
+      {
+        icon: 'https://lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/common/images/dreamina-v5.ico',
+        title: '即梦 AI',
+        link: 'https://jimeng.jianying.com/',
+        badge: '绘图'
+      },
+
+    ]
+  },
+  {
+    title: 'AI 代码编辑器',
+    items: [
+      {
+        icon: '//cursor.com/marketing-static/favicon-light.ico',
+        title: 'Cursor',
+        link: 'https://cursor.com/',
+        desc: '用 AI 编码的最佳方式',
+      },
+      {
+        icon: '//lf-cdn.trae.com.cn/obj/trae-com-cn/trae_website_prod_cn/favicon.png',
+        title: 'TRAE',
+        link: 'https://www.trae.ai/',
+        desc: 'TRAE IDE - AI 驱动的代码编辑器（字节跳动出品）',
+        badge: '国际版'
+      },
+      {
+        icon: '//lf-cdn.trae.com.cn/obj/trae-com-cn/trae_website_prod_cn/favicon.png',
+        title: 'TRAE',
+        link: 'https://www.trae.cn/',
+        desc: '国内首款AI原生集成开发环境（字节跳动出品）',
+      },
+      {
+        icon: '//img.alicdn.com/imgextra/i1/O1CN01BN6Jtc1lCfJNviV7H_!!6000000004783-2-tps-134-133.png',
+        title: 'lingma',
+        link: 'https://lingma.aliyun.com/',
+        desc: '阿里云提供的智能编码辅助工具',
+      },
+      {
+        icon: '//acc-1258344699.cos.accelerate.myqcloud.com/web/website/6c203b7e04326f5463fec0e0bc4a9906c3fa75fa/assets/logo.svg',
+        title: 'Codebuddy',
+        link: 'https://www.codebuddy.ai/',
+        desc: '腾讯云代码助手，基于混元代码大模型',
+      },
+    ]
+  },
+  {
     title: '开发参考',
     items: [
       {

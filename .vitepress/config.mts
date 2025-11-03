@@ -60,7 +60,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/jonaslgtm/notes' }
     ],
     footer: {
-      copyright: 'Copyright © 2023-2025 Jonas\'s notes | CC BY-NC 4.0 | built with VitePress'
+      copyright: 'Copyright © 2023-2025 Jonas\'s notes'
     },
     // @ts-ignore
     articleMetadataConfig: {
