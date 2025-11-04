@@ -11,7 +11,7 @@ export const nav: DefaultTheme.NavItem[] = [
         activeMatch: '^/blog',
     },
     {
-        text: "后端笔记",
+        text: "学习笔记",
         activeMatch: '^/review',
         items: [
             { text: "Golang篇", link: "/review/golang/map" },
@@ -19,22 +19,6 @@ export const nav: DefaultTheme.NavItem[] = [
             { text: "Redis篇", link: "/review/redis/interview-1" },
         ]
     },
-    // {
-    //     text: "逆向笔记",
-    //     activeMatch: '^/reverse-engineering',
-    //     items: [
-    //         { text: "JS逆向从入门到放弃", link: "/reverse-engineering/js" },
-    //     ]
-    // },
-    // {
-    //     text: "定制软件",
-    //     activeMatch: '^/softs',
-    //     items: [
-    //         { text: "OpenAI", link: "/softs/openai" },
-    //         { text: "Obsidian", link: "/softs/obsidian" },
-    //     ]
-    // },
-
     {
         text: 'Workflow',
         items: [
@@ -65,8 +49,11 @@ export const nav: DefaultTheme.NavItem[] = [
             {
                 text: '软件推荐与配置',
                 items: [
-                    { text: 'Mac 平台', link: '/efficiency/mac/surge' },
-                    { text: 'Windows 平台', link: '/efficiency/windows/keymap' },
+                    { text: 'iOS', link: '/efficiency/software/ios' },
+                    { text: 'MacOS', link: '/efficiency/software/mac' },
+                    { text: 'Windows', link: '/efficiency/software/windows' },
+                    { text: '跨平台软件', link: '/efficiency/software/cross-platform' },
+                    { text: 'Visual Studio Code 配置', link: '/efficiency/software/vscode' },
                 ]
             },
         ],

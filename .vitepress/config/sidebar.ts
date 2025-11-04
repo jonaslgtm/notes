@@ -7,11 +7,9 @@ const sync = fg.sync;
 export const sidebar: DefaultTheme.Sidebar = {
     '/blog': getItemsByDate('posts/blog'),
     '/review': getItemsByCategory('posts/review'),
-    '/softs': getItemsByCategory('posts/softs'),
     '/zhihu': getItemsByCategory('posts/zhihu'),
     '/workflow': getItemsByCategory('posts/workflow'),
     '/efficiency': getItemsByCategory('posts/efficiency'),
-    '/reverse-engineering': getItemsByCategory('posts/reverse-engineering'),
 }
 
 // 定义新类型，继承DefaultTheme.SidebarItem，并增加新字段
@@ -190,7 +188,7 @@ function sortArticleItems(groups: SidebarItem[]) {
         });
 
         (group.items as SidebarItem[] | undefined)?.forEach((item) => {
-            item.text = `📝 ${item.text}`;
+            item.text = `${item.text}`;//删除表情符号等特殊字符
             delete item.date;
         });
     });

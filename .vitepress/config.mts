@@ -82,7 +82,9 @@ export default defineConfig({
     'posts/:categorie/:yyyy/:title/README.md': ':categorie/:yyyy/:title.md',
     'posts/:categorie/:type/index.md': ':categorie/:type.md',
     'posts/:categorie/index.md': ':categorie.md',
-    'pages/:categorie/index.md': ':categorie.md'
+    'pages/:categorie/index.md': ':categorie.md',
+    // 新增：支持分类目录下的直接 .md 文件
+    'posts/:categorie/:filename.md': ':categorie/:filename.md'
   },
 
   srcExclude: [
