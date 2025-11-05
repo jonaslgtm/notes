@@ -15,8 +15,8 @@ jobs:
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
           crawler-name: 'jonas-notes'
-          crawler-user-id: 'ff914b30-c55c-4242-b0ff-ad463ae88a26'
-          crawler-api-key: '8eca7ef2aa0f9dba872ed4989a42b84f'
-          algolia-app-id: '5C1C4WHDZM'
-          algolia-api-key: '52536ffcb312e563b17420314960a6ad'
+          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
+          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
+          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_SEARCH_API_KEY }}
           site-url: 'https://notes.web025.cn'
