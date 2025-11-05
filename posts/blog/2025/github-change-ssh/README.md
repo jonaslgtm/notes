@@ -57,4 +57,4 @@ branch.main.remote=origin
 
 已配置 SSH Key。
 
-详细教程：[配置 SSH Key](/github-ssh-keys)
+详细教程：
