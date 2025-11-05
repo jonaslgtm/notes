@@ -17,6 +17,12 @@ Git:fatal: unable to access 'https://github.com/xxx.git/': Failed to connect to 
 
 将 git config 中的 remote.origin.url 从 HTTPS 改成 SSH
 
+## ⭐前提条件
+
+已配置 **SSH Key**。
+
+详细教程：待更...
+
 ## 具体步骤
 
 **1、查看 git config：**
@@ -52,9 +58,3 @@ branch.main.remote=origin
 可以看到 remote.origin.url 已经修改为 SSH 路径，再次同步就成功了！
 
 **注：** 这里的 origin 是远程存储库名称，按照自己的设置，通常设置为 github 或 origin 。
-
-## ⭐前提条件
-
-已配置 SSH Key。
-
-详细教程：
