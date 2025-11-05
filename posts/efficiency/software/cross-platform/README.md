@@ -11,7 +11,7 @@ showChapterCount: false
 
 ::: danger APP 介绍：
 
-- 简称TG、电报、纸飞机
+- 简称 TG、电报、纸飞机
 - 是跨平台的即时通讯软件
 - ...
 
