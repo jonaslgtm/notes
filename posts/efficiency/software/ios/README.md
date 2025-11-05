@@ -11,24 +11,20 @@ showChapterCount: false
 
 ::: info APP 介绍：
 
-一个用于快速上传图片并获取图片 URL 链接的工具
+![Shadowrocket-ico](Shadowrocket-iOS-256x256.webp)
 
-- 支持 GitHub、七牛云、腾讯云、又拍云、阿里云 OSS、SM.MS V2、Imgur
-- 支持拖拽图片上传
-- 支持快捷键上传剪贴板里第一张图片
-- 支持右键图片文件通过菜单上传
-- 支持自定义复制到剪贴板的链接格式、
-- 丰富的插件系统
+- iOS 科学上网神器，基于规则的代理工具。
+- 一次购买，畅享所有设备。支持 iOS、macOS、iPadOS 和 tvOS。
 
-PicGo | Github
-
-软件官网
+价格：**$2.99**
 
 :::
 
-## QtScrcpy
+## Picsew
 
-::: tip APP 介绍：
+::: warning APP 介绍：
+
+![Picsew-ico](Picsew-iOS-256x256.webp)
 
 通过 USB 或 TCP/IP 连接 Android 设备，并进行显示和控制
 
@@ -41,31 +37,30 @@ QtScrcpy | Github
 
 :::
 
-## Sourcetree
+## Lightroom
 
-::: warning APP 介绍：
+::: tip APP 介绍：
 
-界面简洁、美观
+![Lightroom-ico](Lightroom-iOS-256x256.webp)
 
 - 简化 Git 日常操作，对新人友好易上手
 - 支持 Git 工作流，规范开发流程
 - 支持 Git 和 Mercurial 两种 VCS
 - 支持自定义脚本执行
 
-软件官网
+价格：免费
 
 :::
 
-## 局域网文件传输神器 LocalSend
+## PDF Gear
 
 ::: danger APP 介绍：
 
-- 免费开源
-- 界面简洁、美观、易用
-- 无需中央服务器即可分享文件
+![PDF-Gear-ico](PDF-Gear-iOS-256x256.webp)
 
-LocalSend | Github
+- PDF 文档编辑、格式转换和压缩
+- 所有功能免费使用，无任何限制。
 
-软件官网
+价格：**免费**
 
 :::

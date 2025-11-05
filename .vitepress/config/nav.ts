@@ -1,3 +1,4 @@
+import { text } from 'stream/consumers'
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.NavItem[] = [
@@ -12,12 +13,31 @@ export const nav: DefaultTheme.NavItem[] = [
     },
     {
         text: "学习笔记",
-        activeMatch: '^/review',
         items: [
-            { text: "Golang篇", link: "/review/golang/map" },
-            { text: "Python篇", link: "/review/python/pyside6" },
-            { text: "Redis篇", link: "/review/redis/interview-1" },
-        ]
+            {
+                text: "前端篇",
+                items: [
+                    { text: "HTML", link: "/review/frontend/html" },
+                    { text: "CSS", link: "/review/frontend/css" },
+                    { text: "JavaScript", link: "/review/frontend/javascript" },
+                    { text: "TypeScript", link: "/review/frontend/typescript" },
+                    { text: "Vue", link: "/review/frontend/vue" },
+                    { text: "React", link: "/review/frontend/react" },
+                ]
+            },
+            {
+                text: "后端篇",
+                items: [
+                    { text: "Node.js", link: "/review/backend/nodejs" },
+                    { text: "PHP", link: "/review/backend/php" },
+                    { text: "Golang", link: "/review/golang/map" },
+                    { text: "Python", link: "/review/python/pyside6" },
+                    { text: "Redis", link: "/review/redis/interview-1" },
+                ],
+            },
+        ],
+
+        activeMatch: '^/review',
     },
     {
         text: 'Workflow',

@@ -142,3 +142,10 @@ samp {
 .vp-doc h2 {
     margin: 24px 0 16px;
 }
+
+// 自定义custom-block 中图片的大小
+._efficiency_software_ios .custom-block p img {
+
+    width: 4rem;
+    height: 4rem;
+}

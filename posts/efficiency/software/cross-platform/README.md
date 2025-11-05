@@ -6,3 +6,15 @@ showChapterCount: false
 ---
 
 # 跨平台软件
+
+## Telegram <Badge type="danger" text="美区" />
+
+::: danger APP 介绍：
+
+- 简称TG、电报、纸飞机
+- 是跨平台的即时通讯软件
+- ...
+
+[软件官网](https://telegram.org/)
+
+:::
