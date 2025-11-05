@@ -17,9 +17,7 @@ Git:fatal: unable to access 'https://github.com/xxx.git/': Failed to connect to 
 
 将 git config 中的 remote.origin.url 从 HTTPS 改成 SSH
 
-## ⭐前提条件
-
-已配置 **SSH Key**。
+## ⭐前提条件：已配置 SSH Key
 
 详细教程：待更...
 
