@@ -52,9 +52,9 @@ export default defineConfig({
       next: '下一篇'
     },
     search: {
-      // provider: 'local'
-      provider: 'algolia',
-      options: algolia,
+      provider: 'local',
+      // provider: 'algolia',
+      // options: algolia,
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jonaslgtm/notes' }
