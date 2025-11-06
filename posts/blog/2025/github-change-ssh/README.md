@@ -19,7 +19,7 @@ Git:fatal: unable to access 'https://github.com/xxx.git/': Failed to connect to 
 
 ## ⭐前提条件：已配置 SSH Key
 
-详细教程：待更...
+详细教程：[配置 GitHub 的 SSH 密钥](github-ssh-keys)
 
 ## 具体步骤
 
