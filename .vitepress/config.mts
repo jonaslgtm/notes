@@ -36,10 +36,12 @@ export default defineConfig({
       label: '页面导航',
       level: 'deep'
     },
+
     editLink: {
       pattern: 'https://github.com/jonaslgtm/notes/edit/main/:path',
       text: '不妥之处，敬请雅正'
     },
+
     lastUpdated: {
       text: '最后更新于',
       formatOptions: {
@@ -52,7 +54,7 @@ export default defineConfig({
       next: '下一篇'
     },
     search: {
-      provider: 'local',
+      provider: 'local'
       // provider: 'algolia',
       // options: algolia,
     },
